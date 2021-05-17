@@ -650,13 +650,13 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_01x10 J1
 U 1 1 60A40A6A
-P 1400 1450
-F 0 "J1" H 1480 1442 50  0000 L CNN
-F 1 "Conn_01x10" H 1480 1351 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1400 1450 50  0001 C CNN
-F 3 "~" H 1400 1450 50  0001 C CNN
-	1    1400 1450
-	1    0    0    -1  
+P 1300 3500
+F 0 "J1" H 1380 3492 50  0000 L CNN
+F 1 "Conn_01x10" H 1380 3401 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1300 3500 50  0001 C CNN
+F 3 "~" H 1300 3500 50  0001 C CNN
+	1    1300 3500
+	-1   0    0    -1  
 $EndComp
 $Comp
 L mybays_connector:microusb J2
@@ -681,14 +681,90 @@ F 3 "http://www.ti.com/lit/ds/symlink/tlv700.pdf" H 3350 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector_Generic:Conn_01x10 J3
 U 1 1 60A33E9A
-P 2500 1450
-F 0 "J?" H 2580 1442 50  0000 L CNN
-F 1 "Conn_01x10" H 2580 1351 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 2500 1450 50  0001 C CNN
-F 3 "~" H 2500 1450 50  0001 C CNN
-	1    2500 1450
-	1    0    0    -1  
+P 1800 1700
+F 0 "J3" V 1880 1692 50  0000 L CNN
+F 1 "Conn_01x10" H 1880 1601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1800 1700 50  0001 C CNN
+F 3 "~" H 1800 1700 50  0001 C CNN
+	1    1800 1700
+	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	2050 1300 2000 1300
+Wire Wire Line
+	2050 1400 2000 1400
+Wire Wire Line
+	2050 1500 2000 1500
+Wire Wire Line
+	2050 1600 2000 1600
+Wire Wire Line
+	2050 1700 2000 1700
+Wire Wire Line
+	2050 1800 2000 1800
+Wire Wire Line
+	2050 1900 2000 1900
+Wire Wire Line
+	2050 2000 2000 2000
+Wire Wire Line
+	2050 2100 2000 2100
+Wire Wire Line
+	2050 2200 2000 2200
+Text GLabel 2050 1300 2    50   Input ~ 0
+PB01
+Text GLabel 2050 1400 2    50   Input ~ 0
+PB00
+Text GLabel 2050 1500 2    50   Input ~ 0
+PA00
+Text GLabel 2050 1600 2    50   Input ~ 0
+PA01
+Text GLabel 2050 1700 2    50   Input ~ 0
+PA02
+Text GLabel 2050 1800 2    50   Input ~ 0
+PA03
+Text GLabel 2050 1900 2    50   Input ~ 0
+PA04
+Text GLabel 2050 2000 2    50   Input ~ 0
+PA05
+Text GLabel 2050 2100 2    50   Input ~ 0
+PA06
+Wire Wire Line
+	1550 4000 1500 4000
+Wire Wire Line
+	1550 3900 1500 3900
+Wire Wire Line
+	1550 3800 1500 3800
+Wire Wire Line
+	1550 3700 1500 3700
+Wire Wire Line
+	1550 3600 1500 3600
+Wire Wire Line
+	1550 3500 1500 3500
+Wire Wire Line
+	1550 3400 1500 3400
+Wire Wire Line
+	1550 3300 1500 3300
+Wire Wire Line
+	1550 3200 1500 3200
+Wire Wire Line
+	1550 3100 1500 3100
+Text GLabel 1550 4000 2    50   Input ~ 0
+PD04
+Text GLabel 1550 3900 2    50   Input ~ 0
+PD03
+Text GLabel 1550 3800 2    50   Input ~ 0
+PD02
+Text GLabel 1550 3700 2    50   Input ~ 0
+PC00
+Text GLabel 1550 3600 2    50   Input ~ 0
+PC01
+Text GLabel 1550 3500 2    50   Input ~ 0
+PC02
+Text GLabel 1550 3400 2    50   Input ~ 0
+PC03
+Text GLabel 1550 3300 2    50   Input ~ 0
+PC04
+Text GLabel 1550 3200 2    50   Input ~ 0
+PC05
 $EndSCHEMATC
