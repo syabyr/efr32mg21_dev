@@ -648,10 +648,10 @@ Wire Wire Line
 Wire Wire Line
 	2750 3700 3950 3700
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector_Generic:Conn_01x10 J1
 U 1 1 60A40A6A
 P 1400 1450
-F 0 "J?" H 1480 1442 50  0000 L CNN
+F 0 "J1" H 1480 1442 50  0000 L CNN
 F 1 "Conn_01x10" H 1480 1351 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1400 1450 50  0001 C CNN
 F 3 "~" H 1400 1450 50  0001 C CNN
@@ -659,14 +659,36 @@ F 3 "~" H 1400 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L mybays_connector:microusb J?
+L mybays_connector:microusb J2
 U 1 1 60A43712
 P 1550 6000
-F 0 "J?" H 1607 6467 50  0000 C CNN
+F 0 "J2" H 1607 6467 50  0000 C CNN
 F 1 "microusb" H 1607 6376 50  0000 C CNN
 F 2 "mybays_connector:MICRO-USB_MICRO-USB-17" H 1700 5950 50  0001 C CNN
 F 3 "~" H 1700 5950 50  0001 C CNN
 	1    1550 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Linear:TLV70033_SOT23-5 U2
+U 1 1 60A2EA88
+P 3350 6000
+F 0 "U2" H 3350 6342 50  0000 C CNN
+F 1 "TLV70033_SOT23-5" H 3350 6251 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3350 6325 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv700.pdf" H 3350 6050 50  0001 C CNN
+	1    3350 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x10 J?
+U 1 1 60A33E9A
+P 2500 1450
+F 0 "J?" H 2580 1442 50  0000 L CNN
+F 1 "Conn_01x10" H 2580 1351 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 2500 1450 50  0001 C CNN
+F 3 "~" H 2500 1450 50  0001 C CNN
+	1    2500 1450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
